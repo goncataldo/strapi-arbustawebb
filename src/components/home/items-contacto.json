@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_items_contactos",
+  "info": {
+    "displayName": "Items.contacto"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

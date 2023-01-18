@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_items_carrusels",
+  "info": {
+    "displayName": "items.carrusel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

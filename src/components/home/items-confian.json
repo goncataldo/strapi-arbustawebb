@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_submenu_items_confians",
+  "info": {
+    "displayName": "items.confian",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

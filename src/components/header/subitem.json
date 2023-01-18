@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_subitems",
+  "info": {
+    "displayName": "Subitem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}
