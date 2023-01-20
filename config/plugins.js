@@ -21,35 +21,20 @@ module.exports = ({ env }) => ({
   },
 });
 
-module.exports = ({ env }) => ({
-  // ...
-
-  "fuzzy-search": {
-    enabled: true,
+module.exports = () => ({
+  //...
+  meilisearch: {
     config: {
-      contentTypes: [
-        {
-          uid: "api::header.header",
-          modelName: "header",
-          fuzzysortOptions: {
-            characterLimit: 500,
-            keys: [
-              {
-                name: "name",
-                weight: 200,
-              },
-              {
-                name: "url",
-                weight: -200,
-              },
-              {
-                name: "submenu",
-                weight: -200,
-              },
-            ],
-          },
-        },
-      ],
-    },
-  },
-});
+      // Your meili host
+      host: "http://localhost:7700",
+      // Your master key or private key
+      apiKey: "masterKey",
+      header: {
+        indexName: 'all',
+      },
+      home: {
+        indexName: 'all',
+      },
+    }
+  }
+})

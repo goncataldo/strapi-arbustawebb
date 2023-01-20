@@ -1,11 +1,18 @@
 {
   "collectionName": "components_home_items_contactos",
   "info": {
-    "displayName": "Items.contacto"
+    "displayName": "Items.hablemos",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button": {
       "type": "string"
     }
   }

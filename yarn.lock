@@ -1805,7 +1805,7 @@
     "@strapi/utils" "4.5.5"
     fs-extra "10.0.0"
 
-"@strapi/strapi@^4.0.7", "@strapi/strapi@^4.0.8", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.5":
+"@strapi/strapi@^4.0.7", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.5":
   version "4.5.5"
   resolved "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.5.5.tgz"
   integrity sha512-j7IfdPU+sAE8dQ5FZSt7LVKYX51IiOweH5XEee2TgTQ5TqMk3yEZEfC04VKNAG8ZKTyHsuKjdnZPe2nGL+s2rA==
@@ -1876,7 +1876,7 @@
     prettier "2.7.1"
     typescript "4.6.2"
 
-"@strapi/utils@^4.0.8", "@strapi/utils@4.5.5":
+"@strapi/utils@^4.5.4", "@strapi/utils@4.5.5":
   version "4.5.5"
   resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.5.5.tgz"
   integrity sha512-Kqdt8wYc6w7RW9JIw0wi6SNDw6OQxmAcUIsZL4IPteRY7x/ACbgqPvfq0LymUc9VE/gAocbm5jG/fRmbbfJcwA==
@@ -3758,6 +3758,13 @@ cross-env@^7.0.3:
   dependencies:
     cross-spawn "^7.0.1"
 
+cross-fetch@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.5.tgz"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
+  dependencies:
+    node-fetch "2.6.7"
+
 cross-spawn@^6.0.0:
   version "6.0.5"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-6.0.5.tgz"
@@ -4899,11 +4906,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-
-fuzzysort@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/fuzzysort/-/fuzzysort-2.0.1.tgz"
-  integrity sha512-SlgbPAq0eQ6JQ1h3l4MNeGH/t9DHKH8GGM0RD/6RhmJrNnSoWt3oIVaiQm9g9BPB+wAhRMeMqlUTbhbd7+Ufcg==
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
@@ -6734,6 +6736,13 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
+
+meilisearch@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.npmjs.org/meilisearch/-/meilisearch-0.30.0.tgz"
+  integrity sha512-3y1hALOwTDpquYar+gDREqRasFPWKxkWAhk6h+RF+nKObPVf9N77wcTNvukGwOKbxRyJnKge0OPgAB1BkB9VVw==
+  dependencies:
+    cross-fetch "^3.1.5"
 
 memfs@^3.4.1, memfs@^3.4.3:
   version "3.4.13"
@@ -9129,13 +9138,13 @@ std-env@^3.0.1:
   resolved "https://registry.npmjs.org/std-env/-/std-env-3.3.1.tgz"
   integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
 
-strapi-plugin-fuzzy-search@^1.10.2:
-  version "1.10.2"
-  resolved "https://registry.npmjs.org/strapi-plugin-fuzzy-search/-/strapi-plugin-fuzzy-search-1.10.2.tgz"
-  integrity sha512-wJwKh3f0nn0e68oHhKQKcgycedsvB0xX5tteE39VQDjmleWRWik8C3a923FYJumAG05/oF9SyhnIRtcDDY2XvA==
+strapi-plugin-meilisearch@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.npmjs.org/strapi-plugin-meilisearch/-/strapi-plugin-meilisearch-0.9.1.tgz"
+  integrity sha512-kSZjqYJuuXulqPsIc1ZcpCG7xNbYfCYCNDNRN6CI/aisWFL65dQYVG7HkVOAaJfxdUaboFKNu9c5R1hzbtJwTQ==
   dependencies:
-    fuzzysort "2.0.1"
-    transliteration "2.3.5"
+    "@strapi/utils" "^4.5.4"
+    meilisearch "^0.30.0"
 
 strapi-plugin-populate-deep@^1.1.2:
   version "1.1.2"
@@ -9500,13 +9509,6 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
   integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
-
-transliteration@2.3.5:
-  version "2.3.5"
-  resolved "https://registry.npmjs.org/transliteration/-/transliteration-2.3.5.tgz"
-  integrity sha512-HAGI4Lq4Q9dZ3Utu2phaWgtm3vB6PkLUFqWAScg/UW+1eZ/Tg6Exo4oC0/3VUol/w4BlefLhUUSVBr/9/ZGQOw==
-  dependencies:
-    yargs "^17.5.1"
 
 triple-beam@^1.3.0:
   version "1.3.0"
@@ -10129,7 +10131,7 @@ yargs-parser@^21.1.1:
   resolved "https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz"
   integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
 
-yargs@^17.3.1, yargs@^17.5.1:
+yargs@^17.3.1:
   version "17.6.2"
   resolved "https://registry.npmjs.org/yargs/-/yargs-17.6.2.tgz"
   integrity sha512-1/9UrdHjDZc0eOU0HxOHoS78C69UD3JRMvzlJ7S79S2nTaWRA/whGCTV8o9e/N/1Va9YIV7Q4sOxD8VV4pCWOw==

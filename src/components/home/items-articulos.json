@@ -26,6 +26,9 @@
     },
     "img": {
       "type": "string"
+    },
+    "button": {
+      "type": "string"
     }
   }
 }
