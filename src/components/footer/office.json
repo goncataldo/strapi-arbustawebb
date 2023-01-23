@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_footer_offices",
+  "info": {
+    "displayName": "office"
+  },
+  "options": {},
+  "attributes": {
+    "country": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
