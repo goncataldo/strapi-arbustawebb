@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insights",
+  "info": {
+    "singularName": "insight",
+    "pluralName": "insights",
+    "displayName": "Insight",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "dynamiczone",
+      "components": [
+        "insight.blog",
+        "insight.evento",
+        "insight.caso",
+        "insight.recurso"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_blogs",
+  "info": {
+    "displayName": "blog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}
