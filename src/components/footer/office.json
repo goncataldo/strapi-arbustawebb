@@ -5,7 +5,7 @@
   },
   "options": {},
   "attributes": {
-    "Country": {
+    "country": {
       "type": "string"
     },
     "address": {
@@ -14,7 +14,13 @@
     "address2": {
       "type": "string"
     },
-    "city": {
+    "location": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "url": {
       "type": "string"
     }
   }

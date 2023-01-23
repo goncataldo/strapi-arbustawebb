@@ -15,10 +15,12 @@
     "name": {
       "type": "string"
     },
-    "submenu": {
-      "type": "component",
-      "repeatable": true,
-      "component": "footer.item"
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "footer.social-media",
+        "footer.office"
+      ]
     }
   }
 }

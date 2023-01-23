@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_footer_items",
+  "collectionName": "components_footer_social_medias",
   "info": {
-    "displayName": "social-media",
-    "description": ""
+    "displayName": "social-media"
   },
   "options": {},
   "attributes": {
