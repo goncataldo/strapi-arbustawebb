@@ -21,6 +21,9 @@
         "footer.social-media",
         "footer.office"
       ]
+    },
+    "img": {
+      "type": "string"
     }
   }
 }
