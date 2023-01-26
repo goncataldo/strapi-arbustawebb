@@ -16,13 +16,43 @@
     }
   },
   "attributes": {
+    "section": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
     "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "type": "dynamiczone",
       "components": [
         "insight.blog",
-        "insight.evento",
-        "insight.caso",
-        "insight.recurso"
+        "insight.event",
+        "insight.resource",
+        "insight.success-storie"
       ]
     }
   }
