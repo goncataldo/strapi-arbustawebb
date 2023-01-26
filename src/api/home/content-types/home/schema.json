@@ -27,11 +27,12 @@
     "items": {
       "type": "dynamiczone",
       "components": [
-        "home.items-confian",
         "home.items-carrusel",
         "home.items-servicios",
         "home.items-caso",
         "home.items-articulos",
+        "home.items-blog",
+        "home.items-confian",
         "home.items-contacto"
       ],
       "pluginOptions": {

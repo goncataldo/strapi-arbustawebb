@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_home_items_contactos",
+  "collectionName": "components_home_items_blogs",
   "info": {
-    "displayName": "Items.hablemos",
-    "description": ""
+    "displayName": "Items.blog"
   },
   "options": {},
   "attributes": {
