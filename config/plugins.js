@@ -21,20 +21,29 @@ module.exports = ({ env }) => ({
   },
 });
 
-module.exports = () => ({
+module.exports = ({ env }) => ({
   //...
   meilisearch: {
     config: {
       // Your meili host
-      host: "http://localhost:7700",
+      host: env('MEILISEARCH_HOST', 'http://host.docker.internal:7700'),
       // Your master key or private key
-      apiKey: "masterKey",
+      apiKey: env('MEILISEARCH_API_KEY', "'MASTER_KEY'"),
       header: {
         indexName: 'all',
       },
       home: {
         indexName: 'all',
       },
+      insight: {
+        settings:{
+          //displayedAttributes: ['type.title'], //showed attributes
+          filterableAttributes: ['insight.type']
+        }
+      }
     }
   }
 })
+
+
+

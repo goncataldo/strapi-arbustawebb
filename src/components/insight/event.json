@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_insight_blogs",
+  "collectionName": "components_insight_events",
   "info": {
-    "displayName": "blog",
+    "displayName": "event",
     "description": ""
   },
   "options": {},
@@ -15,8 +15,8 @@
     "body": {
       "type": "richtext"
     },
-    "url": {
-      "type": "string"
+    "event_date": {
+      "type": "datetime"
     }
   }
 }
