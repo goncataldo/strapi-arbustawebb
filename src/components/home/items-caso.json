@@ -6,16 +6,22 @@
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "description": {
+    "title": {
       "type": "string"
     },
     "url": {
       "type": "string"
     },
     "button": {
+      "type": "string"
+    },
+    "imgLeft": {
+      "type": "string"
+    },
+    "imgCenter": {
+      "type": "string"
+    },
+    "imgRight": {
       "type": "string"
     }
   }

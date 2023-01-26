@@ -12,14 +12,22 @@
     "description": {
       "type": "string"
     },
-    "url": {
-      "type": "string"
-    },
     "img": {
       "type": "string"
     },
     "button": {
       "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "companies_title": {
+      "type": "string"
+    },
+    "companies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.items-confian"
     }
   }
 }

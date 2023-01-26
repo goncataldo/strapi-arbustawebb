@@ -1,7 +1,7 @@
 {
   "collectionName": "components_submenu_items_confians",
   "info": {
-    "displayName": "items.confian",
+    "displayName": "items.clients",
     "description": ""
   },
   "options": {},
@@ -10,9 +10,6 @@
       "type": "string"
     },
     "icon": {
-      "type": "string"
-    },
-    "text": {
       "type": "string"
     }
   }
