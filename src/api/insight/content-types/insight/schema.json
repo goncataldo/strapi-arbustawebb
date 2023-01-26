@@ -16,44 +16,14 @@
     }
   },
   "attributes": {
-    "section": {
-      "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "title": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "url": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "type": {
       "type": "dynamiczone",
       "components": [
         "insight.blog",
-        "insight.event",
-        "insight.resource",
-        "insight.success-storie"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+        "insight.evento",
+        "insight.caso",
+        "insight.recurso"
+      ]
     }
   }
 }
