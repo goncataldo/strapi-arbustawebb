@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_us_somos_arbustas",
+  "info": {
+    "displayName": "somos-arbusta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_name": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

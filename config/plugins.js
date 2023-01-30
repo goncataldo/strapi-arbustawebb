@@ -35,6 +35,18 @@ module.exports = ({ env }) => ({
       home: {
         indexName: 'all',
       },
+      blog:{
+        indexName: 'insight2',
+      },
+      event:{
+        indexName: 'insight2',
+      },
+      resource:{
+        indexName: 'insight2',
+      },
+      "success-storie":{
+        indexName: 'insight2',
+      },
       insight: {
         settings:{
           //displayedAttributes: ['type.title'], //showed attributes

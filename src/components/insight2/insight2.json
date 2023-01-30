@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_insight2_insight2s",
+  "info": {
+    "displayName": "insight2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}

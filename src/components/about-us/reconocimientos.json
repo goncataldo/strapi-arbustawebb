@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_about_us_reconocimientos",
+  "info": {
+    "displayName": "reconocimientos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_us_nuestra_visions",
+  "info": {
+    "displayName": "nuestra-vision",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imgs": {
+      "type": "json"
+    }
+  }
+}

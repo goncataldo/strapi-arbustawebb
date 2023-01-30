@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_us_directores",
+  "info": {
+    "displayName": "directores"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "url_detail": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkedin": {
+      "type": "string"
+    }
+  }
+}
