@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_us_executives",
+  "info": {
+    "displayName": "executive"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "url_detail": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkedin": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_header_all_services",
+  "info": {
+    "displayName": "all_services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "services": {
+      "type": "json"
+    }
+  }
+}

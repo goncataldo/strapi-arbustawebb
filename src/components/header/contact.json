@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_footer_social_medias",
+  "collectionName": "components_header_contacts",
   "info": {
-    "displayName": "social-media"
+    "displayName": "contact"
   },
   "options": {},
   "attributes": {
@@ -9,9 +9,6 @@
       "type": "string"
     },
     "url": {
-      "type": "string"
-    },
-    "img": {
       "type": "string"
     }
   }

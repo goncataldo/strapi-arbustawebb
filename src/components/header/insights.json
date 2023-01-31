@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_header_insights",
+  "info": {
+    "displayName": "insights",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "submenu": {
+      "type": "json"
+    }
+  }
+}

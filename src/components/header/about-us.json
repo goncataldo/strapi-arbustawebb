@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_footer_social_medias",
+  "collectionName": "components_header_about_uses",
   "info": {
-    "displayName": "social-media"
+    "displayName": "about-us"
   },
   "options": {},
   "attributes": {
@@ -9,9 +9,6 @@
       "type": "string"
     },
     "url": {
-      "type": "string"
-    },
-    "img": {
       "type": "string"
     }
   }

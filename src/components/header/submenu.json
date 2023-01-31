@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_footer_social_medias",
+  "collectionName": "components_header_submenus",
   "info": {
-    "displayName": "social-media"
+    "displayName": "submenu"
   },
   "options": {},
   "attributes": {
@@ -9,9 +9,6 @@
       "type": "string"
     },
     "url": {
-      "type": "string"
-    },
-    "img": {
       "type": "string"
     }
   }

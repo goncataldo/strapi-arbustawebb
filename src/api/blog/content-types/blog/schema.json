@@ -4,8 +4,7 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "blog",
-    "description": ""
+    "displayName": "blog"
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +15,7 @@
     }
   },
   "attributes": {
-    "name": {
+    "article_name": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,15 +23,29 @@
       },
       "type": "string"
     },
-    "type": {
-      "type": "component",
-      "repeatable": false,
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "insight2.insight2"
+      "type": "text"
+    },
+    "body": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "publication_date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date"
     }
   }
 }

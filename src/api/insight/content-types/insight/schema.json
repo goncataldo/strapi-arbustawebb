@@ -1,59 +1,35 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "insights",
   "info": {
     "singularName": "insight",
     "pluralName": "insights",
-    "displayName": "insight",
-    "description": ""
+    "displayName": "insight"
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
-    "section": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
     },
-    "title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+    "event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event"
     },
-    "url": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+    "resources": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::resource.resource"
     },
-    "type": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "dynamiczone",
-      "components": [
-        "insight.blog",
-        "insight.event",
-        "insight.resource",
-        "insight.success-storie"
-      ]
+    "success_cases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::success-case.success-case"
     }
   }
 }

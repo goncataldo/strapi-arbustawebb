@@ -29,33 +29,18 @@ module.exports = ({ env }) => ({
       host: env('MEILISEARCH_HOST', 'http://host.docker.internal:7700'),
       // Your master key or private key
       apiKey: env('MEILISEARCH_API_KEY', "'MASTER_KEY'"),
-      header: {
-        indexName: 'all',
+      "blog":{
+        indexName: 'insight',
       },
-      home: {
-        indexName: 'all',
+      "event":{
+        indexName: 'insight',
       },
-      blog:{
-        indexName: 'insight2',
+      "resource":{
+        indexName: 'insight',
       },
-      event:{
-        indexName: 'insight2',
+      "success-case":{
+        indexName: 'insight',
       },
-      resource:{
-        indexName: 'insight2',
-      },
-      "success-storie":{
-        indexName: 'insight2',
-      },
-      insight: {
-        settings:{
-          //displayedAttributes: ['type.title'], //showed attributes
-          filterableAttributes: ['insight.type']
-        }
-      }
     }
   }
 })
-
-
-

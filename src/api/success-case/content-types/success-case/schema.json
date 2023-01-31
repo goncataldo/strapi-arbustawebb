@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "events",
+  "collectionName": "success_cases",
   "info": {
-    "singularName": "event",
-    "pluralName": "events",
-    "displayName": "event"
+    "singularName": "success-case",
+    "pluralName": "success-cases",
+    "displayName": "success-case"
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +15,7 @@
     }
   },
   "attributes": {
-    "event_name": {
+    "case_name": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -47,7 +47,7 @@
       },
       "type": "richtext"
     },
-    "location": {
+    "subtitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -55,29 +55,21 @@
       },
       "type": "string"
     },
-    "date": {
+    "body2": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "date"
+      "type": "richtext"
     },
-    "time": {
+    "highlights": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "time"
-    },
-    "url": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      "type": "json"
     }
   }
 }

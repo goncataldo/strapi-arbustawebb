@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_us_about_uses",
+  "info": {
+    "displayName": "about_us"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "bullet_points": {
+      "type": "json"
+    },
+    "img2": {
+      "type": "string"
+    }
+  }
+}

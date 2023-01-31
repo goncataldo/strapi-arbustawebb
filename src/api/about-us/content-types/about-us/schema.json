@@ -1,10 +1,11 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "about_uses",
   "info": {
     "singularName": "about-us",
     "pluralName": "about-uses",
-    "displayName": "about-us"
+    "displayName": "about-us",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,30 +16,65 @@
     }
   },
   "attributes": {
-    "name": {
+    "about_us": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
+      "component": "about-us.about-us"
     },
-    "items": {
+    "directors": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "dynamiczone",
-      "components": [
-        "about-us.directores",
-        "about-us.ejecutivos",
-        "about-us.nuestra-vision",
-        "about-us.prensa",
-        "about-us.quienes-somos",
-        "about-us.reconocimientos",
-        "about-us.somos-arbusta"
-      ]
+      "component": "about-us.directors"
+    },
+    "executives": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.executive"
+    },
+    "our_vision": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.our-vision"
+    },
+    "recognitions": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.recognition"
+    },
+    "we_are_arbusta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.we-are-arbusta"
     }
   }
 }
