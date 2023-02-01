@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "success_cases",
+  "collectionName": "success_stories",
   "info": {
-    "singularName": "success-case",
-    "pluralName": "success-cases",
-    "displayName": "success-case"
+    "singularName": "success-storie",
+    "pluralName": "success-stories",
+    "displayName": "success-storie"
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +15,7 @@
     }
   },
   "attributes": {
-    "case_name": {
+    "storie_name": {
       "pluginOptions": {
         "i18n": {
           "localized": true

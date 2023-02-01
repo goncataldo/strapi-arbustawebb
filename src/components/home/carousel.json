@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_about_us_about_uses",
+  "collectionName": "components_home_carousels",
   "info": {
-    "displayName": "about_us",
-    "description": ""
+    "displayName": "carousel"
   },
   "options": {},
   "attributes": {
@@ -12,17 +11,17 @@
     "description": {
       "type": "text"
     },
-    "img": {
+    "button_name": {
       "type": "string"
     },
-    "subtitle": {
+    "button_url": {
       "type": "string"
     },
-    "img2": {
+    "companies_title": {
       "type": "string"
     },
-    "bullet_points": {
-      "type": "richtext"
+    "companies": {
+      "type": "json"
     }
   }
 }

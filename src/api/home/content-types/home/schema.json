@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "headers",
+  "collectionName": "homes",
   "info": {
-    "singularName": "header",
-    "pluralName": "headers",
-    "displayName": "header",
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
     "description": ""
   },
   "options": {
@@ -16,8 +16,8 @@
     }
   },
   "attributes": {
-    "index": {
-      "displayName": "index",
+    "carousel": {
+      "displayName": "carousel",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -25,10 +25,10 @@
           "localized": true
         }
       },
-      "component": "header.index"
+      "component": "home.carousel"
     },
     "services": {
-      "displayName": "all_services",
+      "displayName": "services",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -36,10 +36,10 @@
           "localized": true
         }
       },
-      "component": "header.all-services"
+      "component": "home.services"
     },
-    "about_us": {
-      "displayName": "about-us",
+    "success_case": {
+      "displayName": "success-case",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -47,10 +47,10 @@
           "localized": true
         }
       },
-      "component": "header.about-us"
+      "component": "home.success-case"
     },
-    "insights": {
-      "displayName": "insights",
+    "our_clients": {
+      "displayName": "our_clients",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -58,10 +58,10 @@
           "localized": true
         }
       },
-      "component": "header.insights"
+      "component": "home.our-clients"
     },
-    "work_here": {
-      "displayName": "work_here",
+    "lets_talk": {
+      "displayName": "letss-talk",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -69,18 +69,7 @@
           "localized": true
         }
       },
-      "component": "header.work-here"
-    },
-    "contact": {
-      "displayName": "contact",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "header.contact"
+      "component": "home.letss-talk"
     }
   }
 }

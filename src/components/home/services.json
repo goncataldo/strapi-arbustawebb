@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_header_services",
+  "info": {
+    "displayName": "services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "service_data": {
+      "displayName": "service_data",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.service-data"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_our_clients",
+  "info": {
+    "displayName": "our_clients"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tools.img"
+    }
+  }
+}

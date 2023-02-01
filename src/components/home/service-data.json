@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_about_us_about_uses",
+  "collectionName": "components_home_service_data",
   "info": {
-    "displayName": "about_us",
+    "displayName": "service_data",
     "description": ""
   },
   "options": {},
@@ -12,17 +12,14 @@
     "description": {
       "type": "text"
     },
-    "img": {
+    "url": {
       "type": "string"
     },
-    "subtitle": {
+    "button_name": {
       "type": "string"
     },
-    "img2": {
+    "icon": {
       "type": "string"
-    },
-    "bullet_points": {
-      "type": "richtext"
     }
   }
 }

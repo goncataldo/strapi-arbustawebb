@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_letss_talks",
+  "info": {
+    "displayName": "letss-talk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "button_name": {
+      "type": "string"
+    }
+  }
+}

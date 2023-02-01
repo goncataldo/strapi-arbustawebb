@@ -25,11 +25,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::resource.resource"
-    },
-    "success_cases": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::success-case.success-case"
     }
   }
 }

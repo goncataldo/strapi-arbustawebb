@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_about_us_about_uses",
+  "collectionName": "components_home_success_cases",
   "info": {
-    "displayName": "about_us",
+    "displayName": "success-storie",
     "description": ""
   },
   "options": {},
@@ -12,17 +12,16 @@
     "description": {
       "type": "text"
     },
-    "img": {
+    "url": {
       "type": "string"
     },
-    "subtitle": {
+    "button_name": {
       "type": "string"
     },
-    "img2": {
-      "type": "string"
-    },
-    "bullet_points": {
-      "type": "richtext"
+    "imgs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tools.img"
     }
   }
 }

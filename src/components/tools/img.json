@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tools_imgs",
+  "info": {
+    "displayName": "imgs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

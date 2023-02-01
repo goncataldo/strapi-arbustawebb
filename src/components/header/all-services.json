@@ -1,7 +1,7 @@
 {
   "collectionName": "components_header_all_services",
   "info": {
-    "displayName": "all_services",
+    "displayName": "services",
     "description": ""
   },
   "options": {},
@@ -9,7 +9,7 @@
     "name": {
       "type": "string"
     },
-    "services": {
+    "submenu": {
       "type": "json"
     }
   }
