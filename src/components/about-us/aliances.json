@@ -1,19 +1,18 @@
 {
-  "collectionName": "components_about_us_recognitions",
+  "collectionName": "components_about_us_aliances",
   "info": {
-    "displayName": "recognition",
+    "displayName": "aliances",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "data": {
-      "displayName": "recognition_data",
       "type": "component",
       "repeatable": true,
       "component": "about-us.recognition-data"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

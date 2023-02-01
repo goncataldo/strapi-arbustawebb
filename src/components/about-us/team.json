@@ -1,7 +1,8 @@
 {
-  "collectionName": "components_about_us_executives",
+  "collectionName": "components_about_us_teams",
   "info": {
-    "displayName": "executive"
+    "displayName": "team",
+    "description": ""
   },
   "options": {},
   "attributes": {

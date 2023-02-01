@@ -26,26 +26,6 @@
       },
       "component": "about-us.about-us"
     },
-    "directors": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "about-us.directors"
-    },
-    "executives": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "about-us.executive"
-    },
     "our_vision": {
       "type": "component",
       "repeatable": false,
@@ -56,16 +36,6 @@
       },
       "component": "about-us.our-vision"
     },
-    "recognitions": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "about-us.recognition"
-    },
     "we_are_arbusta": {
       "type": "component",
       "repeatable": false,
@@ -75,6 +45,61 @@
         }
       },
       "component": "about-us.we-are-arbusta"
+    },
+    "recognition": {
+      "displayName": "recognition",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.recognition"
+    },
+    "directors": {
+      "displayName": "directors",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.directors"
+    },
+    "executives": {
+      "displayName": "executives",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.executives"
+    },
+    "aliances": {
+      "displayName": "aliances",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.aliances"
+    },
+    "press": {
+      "displayName": "press",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about-us.press"
     }
   }
 }

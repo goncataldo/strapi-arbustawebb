@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_about_us_recognition_data",
+  "info": {
+    "displayName": "recognition_data"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

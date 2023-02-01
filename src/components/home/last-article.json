@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_last_articles",
+  "info": {
+    "displayName": "last_article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button_section_name": {
+      "type": "string"
+    },
+    "button_section_url": {
+      "type": "string"
+    },
+    "button_articles_name": {
+      "type": "string"
+    }
+  }
+}

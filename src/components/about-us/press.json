@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_presses",
+  "info": {
+    "displayName": "press"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button_name": {
+      "type": "string"
+    }
+  }
+}

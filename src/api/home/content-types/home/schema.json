@@ -19,7 +19,7 @@
     "carousel": {
       "displayName": "carousel",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -70,6 +70,17 @@
         }
       },
       "component": "home.letss-talk"
+    },
+    "last_article": {
+      "displayName": "last_article",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.last-article"
     }
   }
 }

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_us_our_visions",
   "info": {
-    "displayName": "our-vision"
+    "displayName": "our-vision",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,7 +13,9 @@
       "type": "text"
     },
     "imgs": {
-      "type": "json"
+      "type": "component",
+      "repeatable": true,
+      "component": "tools.img"
     }
   }
 }
