@@ -1,14 +1,14 @@
 {
-  "collectionName": "components_header_about_uses",
+  "collectionName": "components_header_imgs",
   "info": {
-    "displayName": "about-us"
+    "displayName": "img"
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "url": {
+    "img": {
       "type": "string"
     }
   }

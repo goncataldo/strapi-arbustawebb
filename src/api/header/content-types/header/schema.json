@@ -25,6 +25,17 @@
         }
       },
       "component": "header.header"
+    },
+    "img": {
+      "displayName": "img",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "header.img"
     }
   }
 }
