@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_header_headers",
+  "info": {
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "order": {
+      "type": "decimal"
+    },
+    "submenu": {
+      "displayName": "submenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.submenu"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

@@ -16,71 +16,15 @@
     }
   },
   "attributes": {
-    "index": {
-      "displayName": "index",
+    "header": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "header.index"
-    },
-    "services": {
-      "displayName": "all_services",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "header.all-services"
-    },
-    "about_us": {
-      "displayName": "about-us",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "header.about-us"
-    },
-    "insights": {
-      "displayName": "insights",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "header.insights"
-    },
-    "work_here": {
-      "displayName": "work_here",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "header.work-here"
-    },
-    "contact": {
-      "displayName": "contact",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "header.contact"
+      "component": "header.header"
     }
   }
 }

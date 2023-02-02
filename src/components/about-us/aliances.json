@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "data": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.recognition-data"
-    },
     "title": {
       "type": "string"
     }

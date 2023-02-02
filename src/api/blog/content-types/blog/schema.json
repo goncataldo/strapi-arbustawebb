@@ -71,6 +71,19 @@
         }
       },
       "type": "string"
+    },
+    "tag": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "articulo",
+        "evento"
+      ],
+      "default": "articulo"
     }
   }
 }

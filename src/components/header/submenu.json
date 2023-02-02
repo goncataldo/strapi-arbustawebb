@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_header_submenus",
+  "info": {
+    "displayName": "submenu"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "order": {
+      "type": "decimal"
+    }
+  }
+}
